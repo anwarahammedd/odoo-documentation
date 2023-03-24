@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record model="ir.module.category" id="module_showroom_management">
+        <field name="name">Showroom Management</field>
+    </record>
+
+
+
+
+    <record id="group_manager" model="res.groups">
+        <field name="name">Showroom Manager</field>
+        <field name="category_id" ref="module_showroom_management"/>
+    </record>
+
+    <record id="group_assistant" model="res.groups">
+        <field name="name">Showroom Assistant</field>
+        <field name="category_id" ref="module_showroom_management"/>
+    </record>
+
+    <record id="group_mechanic" model="res.groups">
+        <field name="name">Showroom Mechanic</field>
+        <field name="category_id" ref="module_showroom_management"/>
+    </record>
+</odoo>

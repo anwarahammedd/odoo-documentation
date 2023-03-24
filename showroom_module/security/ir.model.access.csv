@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+
+access_show_showroom,Access_Manager_show_showroom,model_show_showroom,showroom_module.group_manager,1,1,0,0
+access_Assistant_show_showroom,Access_Technician_show_showroom,model_show_showroom,showroom_module.group_assistant,1,1,1,0
+access_Mechanic_show_showroom,Access_Advisor_show_showroom,model_show_showroom,showroom_module.group_mechanic,1,1,1,1
+access_wizard_showroom,Access_Wizard_Showroom,model_show_wizard,base.group_user,1,1,1,1
